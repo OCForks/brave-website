@@ -173,10 +173,10 @@ h2 {
 * ...................................
 */
 #masthead {
-  padding: 140px 0 120px;
+  padding: 160px 0 160px;
   display: flex;
   align-self: center;
-  background: linear-gradient(to right, rgba(220, 222, 224, 0.25) 0%, rgba(81, 187, 269, 0.15) 100%);
+  background: linear-gradient(to right, #eee 0%, rgba(255, 120, 0, 0.48) 100%);
 }
 
 .discover {
@@ -245,7 +245,7 @@ h2 {
 */
 #publishers {
   padding: 90px 0 0;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 75%, rgba(112, 191, 65, 1) 100%);
+  background: linear-gradient(to bottom, #ddd 0%, rgba(249, 255, 245, 0.8) 96%);
 }
 
 .publisher-highlight {
