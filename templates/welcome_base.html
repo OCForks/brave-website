@@ -35,10 +35,10 @@
   <div class="wrapper">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-5">
-          <img src="assets/img/welcome/shields_pointer.png">
+        <div class="col-sm-6">
+          <img class="pull-right" src="assets/img/welcome/shields_pointer.png">
         </div>
-        <article class="col-sm-7">
+        <article class="col-sm-6">
           <div class="shields-text-content">
             <h2 data-l10n-id="clickTheShieldsButton"></h2>
             <p data-l10n-id="braveShieldsYou"></p>
@@ -49,12 +49,12 @@
     </div>
     <aside class="container-fluid">
       <div class="row">
-        <div class="col-sm-5">
+        <div class="col-sm-6">
           <div class="shields-text-content">
             <p data-l10n-id="viewTheTruth" class="shields-text-content-one-line"></p>
           </div>
         </div>
-        <div class="col-sm-7">
+        <div class="col-sm-6">
           <img src="assets/img/welcome/shields_banner.png">
         </div>
       </div>
@@ -65,11 +65,11 @@
 
 {% block welcomeExtensions %}
 <section id="extensions" class="section-content">
-  <div class="row offset-style">
-    <article class="col-sm-offset-2 col-sm-10 col-xs-12 col-xs-offset-0 reset-when-large">
-      <h2 data-l10n-id="builtInExtensions"></h2>
-      <div class="row">
-        <div class="col-sm-5 extensions-content">
+  <article class="wrapper">
+    <div class="row">
+      <div class="col-sm-6 extensions-content">
+        <div class="extensions-text pull-right">
+          <h2 data-l10n-id="builtInExtensions"></h2>
           <img class="extensions-built-in" src="assets/img/welcome/extensions_group.png">
           <p data-l10n-id="extensionsIntegration" class="extensions-boxed-content"></p>
           <a data-l10n-id="manageExtensions"
@@ -77,12 +77,12 @@
             href="chrome-extension://mnojpmjdmbbfmejpflffifhffcmidifd/about-preferences.html#extensions"
             class="brave-button">Manage extensions</a>
         </div>
-        <div class="col-sm-7 no-padding">
-          <img src="assets/img/welcome/extensions_page.png">
-        </div>
       </div>
-    </article>
-  </div>
+      <div class="col-sm-6 extensions-image">
+        <img src="assets/img/welcome/extensions_page.png">
+      </div>
+    </div>
+  </article>
 </section>
 {% endblock %}
 
