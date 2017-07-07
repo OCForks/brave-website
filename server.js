@@ -240,7 +240,7 @@ server.ext('onPreResponse', function(request, reply) {
       }
     }
   }
-  reply(request.response)
+  return reply.continue()
 })
 
 server.start(() => {
