@@ -197,6 +197,7 @@ server.route({
         scriptSrc: '\'unsafe-inline\' *.brave.com \'self\'',
         fontSrc: 'https://fonts.gstatic.com data: \'self\'',
         imgSrc:  '*.brave.com \'self\'',
+        frameSrc: 'https://widget.battleforthenet.com', // REMOVE THIS AFTER 7/12/2017
         // don't generate nonces automatically
         generateNonces: false
       }

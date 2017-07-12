@@ -175,6 +175,8 @@
                         <p class="panel-body">
                             Only the browser, after HTTPS terminates and secure pages are decrypted, has all of your private data needed to analyze user intent. Our auditable open source browser code protects this intent data on the client device. Our server side has no access to this data in the clear, nor does it have decryption keys. We do not run a MitM proxy or VPN service.
                         <p class="panel-body">
+                            <em>Update: The following paragraph describes an idea we proposed in January 2016 but never implemented. Any private and anonymous ads that share revenue via the <a href="https://basicattentiontoken.org" title="Basic Attention Token">BAT</a> integrated into Brave will require the user to opt-in, and will use a separately downloaded open-source component for machine learning.</em>
+                        <p class="panel-body">
                             We provide signals to the browser to help it make good decisions about what preferences and intent signals to expose to maximize user, publisher and advertiser value. Each ad request is anonymous, and exposes only a small subset of the user's preferences and intent signals to prevent "fingerprinting" the user by a possibly unique set of tags.
                         </p>
                     </li>
@@ -184,7 +186,7 @@
                             16. What might you use the anonymized history data for?
                         </h4>
                         <p class="panel-body">
-                            We hope to aggregate anonymized data across browsers to help improve the in-browser targeting engine, but Brave cannot receive cleartext data from any single user/device.
+                            We won't use any of your data without your consent, and we have no plans to use aggregated history data for ads even with your consent. There's too much risk of re-identification via data leakage. Anything we build that might use differential privacy for other than crash and fault reporting will require a separate opt-in by the Brave user, and entail a greater revenue share via the <a href="https://basicattentiontoken.org" title="Basic Attention Token">BAT</a>.
                         </p>
                     </li>
 

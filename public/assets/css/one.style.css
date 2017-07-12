@@ -1413,6 +1413,13 @@ a.button.blog-button:hover {
   background-repeat: no-repeat;
 }
 
+#jobs-page {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/brave_team_cavallo.jpg');
+  background-position: center top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /*new code for pubs page*/
 #publishers-page {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/The_New_York_Times_newsroom_1942b.jpg');
