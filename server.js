@@ -196,8 +196,8 @@ server.route({
         styleSrc: '\'unsafe-inline\' https://fonts.googleapis.com/ \'self\'',
         scriptSrc: '\'unsafe-inline\' *.brave.com *.greenhouse.io \'self\'',
         fontSrc: 'https://fonts.gstatic.com data: \'self\'',
-        imgSrc:  '*.brave.com *.greenhouse.io \'self\'',
-        frameSrc: 'https://widget.battleforthenet.com *.greenhouse.io', // REMOVE THIS AFTER 7/12/2017
+        imgSrc: '*.brave.com *.greenhouse.io \'self\'',
+        frameSrc: '*.greenhouse.io',
         // don't generate nonces automatically
         generateNonces: false
       }
