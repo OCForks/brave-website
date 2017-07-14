@@ -30,41 +30,8 @@
 
 {% block mainContent %}
 
-<!--=== Add widget for Battle For The Net (https://github.com/fightforthefuture/battleforthenet-widget)
-    TODO: Remove this after July 12 2017===-->
-
-    <script type="text/javascript">
-      var _bftn_options = {
-        theme: {
-            className: 'slow',
-            logos: [ 'images/slow.png', 'images/stop.png', 'images/money.png' ],
-            headline: 'This is the web without net neutrality.',
-            body: 'Cable companies are trying to get rid of net neutrality. Without it, sites could be censored, slowed down, or forced to charge fees. Brave wants to keep the Internet open and fast - that\'s why we\'re asking you to contact Congress and the FCC in support of net neutrality.'
-        },
-        delay: 500, // @type {number}
-        org: 'fftf',
-        /*
-         * If you show the modal on your homepage, you should let users close it to
-         * access your site. However, if you launch a new tab to open the modal, closing
-         * the modal just leaves the user staring at a blank page. Set this to true to
-         * prevent closing the modal - the user can close the tab to dismiss it. Defaults
-         * to false.
-         */
-        uncloseable: false, // @type {Boolean}
-        /*
-         * Prevents the widget iframe from loading Google Analytics. Defaults to false.
-         */
-        disableGoogleAnalytics: true, // @type {Boolean}
-        /*
-         * Always show the widget. Useful for testing.
-         */
-        always_show_widget: false // @type {Boolean}
-      };
-    </script>
-    <script src="assets/js/widget.js" async></script>
-
     <!--=== Main content ===-->
-
+  
      <!-- Modal Overlay -->
     <div id="brave-overlay" style="display: none;">
         <div class="close"><i></i><i></i></div>
