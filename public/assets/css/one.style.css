@@ -1410,6 +1410,7 @@ a.button.blog-button:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/brave-san-francisco.jpg');
   background-position: center top;
   background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
